@@ -14,8 +14,9 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  home: /
-  articles: /archives/
+  Home: /
+  Blog: /archives/
+  'Cyber Centurion': /cybercenturion/
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud

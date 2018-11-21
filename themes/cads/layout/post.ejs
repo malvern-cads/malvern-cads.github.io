@@ -1,29 +1,31 @@
-<section class="post">
-  <header class="container">
-    <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
-    <div class="meta">
-      <% if (page.author) { %>
-        <p class="author">
-          <i class="mdi mdi-account" aria-hidden="true"></i>
-          <%- page.author %>
-        </p>
-      <% } %>
-      <p class="date">
-        <i class="mdi mdi-clock-outline" aria-hidden="true"></i>
-        <%- partial('_partial/post/date', { post: page, class_name: '' }) %>
+<div class="post">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">
+        <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
+      </h1>
+      <p class="lead">
+        <% if (page.author) { %>
+          by <%- page.author %>
+        <% } %>
+        <% if (page.date) { %>
+          published at <%- partial('_partial/post/date', { post: page, class_name: '' }) %>
+        <% } %>
       </p>
-      <p class="category">
-        <i class="mdi mdi-shape" aria-hidden="true"></i>
-        <%- partial('_partial/post/category') %>
-      </p>
-      <p class="tag">
-        <i class="mdi mdi-tag" aria-hidden="true"></i>
-        <%- partial('_partial/post/tag') %>
+      <p>
+        <% if (page.categories && page.categories.length) { %>
+          <b>Category:</b> <%- partial('_partial/post/category') %>
+        <% } %>
+        <% if (page.tags && page.tags.length) { %>
+          <b>Tags:</b> <%- partial('_partial/post/tag') %>
+        <% } %>
       </p>
     </div>
-  </header>
-  <%- partial('_partial/post/gallery') %>
-  <div class="content" itemprop="articleBody">
-    <%- page.content %>
   </div>
-</section>
+
+  <!-- <%- partial('_partial/post/gallery') %> -->
+  
+  <section class="content container">
+    <%- page.content %>
+  </section>
+</div>

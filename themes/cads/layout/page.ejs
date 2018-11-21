@@ -1,9 +1,6 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <%- partial('_partial/post/gallery') %>
-  <div class="content" itemprop="articleBody">
-      <% if (page.search || page.type === "search") { %>
-        <%- partial('_partial/search') %>
-      <% } else if (page.type === "tags") { %>
+  <!-- <%- partial('_partial/post/gallery') %> -->
+      <% if (page.type === "tags") { %>
           <div id="tag-cloud">
             <div class="tag-cloud-title">
                 <% var visibleTags = 0 %>
@@ -34,7 +31,6 @@
             </div>
           </div>
         <% } else { %>
-          <%- page.content %>
+          <section id="content" class="container"><%- page.content %></section>
         <% } %>
-  </div>
 </article>
