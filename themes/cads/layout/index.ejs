@@ -1,0 +1,48 @@
+<section id="hero">
+  <div class="container">
+    <h1 class="display-3"><%= config.title %></h1>
+    <p class="lead"><%= config.subtitle %></p>
+  </div>
+</section>
+
+<section id="welcome" class="container">
+  <h2>What is CADS?</h2>
+  <p>
+    CADS is an initiative setup by <a href="https://www.3sdl.com/">3SDL</a>
+    in partnership with <a href="https://www.qinetiq.com/">QinetiQ</a>. The aim
+    is to encourage students from schools in the Malvern area to get involved and
+    gain experience in Cyber Security.
+  </p>
+  <p>
+    View 
+    <a href="https://www.3sdl.com/news/cyber-security/about-the-cads.html">
+      this article by 3SDL</a>
+    for more information.
+  </p>
+</section>
+
+<section id="blog" class="container">
+  <h1><%= __('index.articles') %></h1>
+
+  <ul class="list-group">
+    <% if (theme.posts_overview.show_all_posts) { %>
+      <% var show_posts = page.posts.sort('date', 'desc') %>
+    <% } else { %>
+      <% var show_posts = site.posts.sort('date', 'desc').limit(theme.posts_overview.post_count || 5) %>
+    <% } %>
+    <% show_posts.each(function(post, i){ %>
+      <li class="list-group-item">
+        <p class="mb-0">
+          <span>
+            <%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %>
+          </span>
+          - <%- partial('_partial/post/date', { post: post }) %>
+        </p>
+      </li>
+    <% }); %>
+  </ul>
+  <br>
+  <% if (theme.posts_overview.show_all_posts) { %>
+    <%- partial('_partial/pagination') %>
+  <% } %>
+</section>

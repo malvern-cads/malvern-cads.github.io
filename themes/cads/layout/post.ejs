@@ -1,0 +1,31 @@
+<div class="post">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">
+        <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
+      </h1>
+      <p class="lead">
+        <% if (page.author) { %>
+          by <%- page.author %>
+        <% } %>
+        <% if (page.date) { %>
+          published at <%- partial('_partial/post/date', { post: page, class_name: '' }) %>
+        <% } %>
+      </p>
+      <p>
+        <% if (page.categories && page.categories.length) { %>
+          <b>Category:</b> <%- partial('_partial/post/category') %>
+        <% } %>
+        <% if (page.tags && page.tags.length) { %>
+          <b>Tags:</b> <%- partial('_partial/post/tag') %>
+        <% } %>
+      </p>
+    </div>
+  </div>
+
+  <!-- <%- partial('_partial/post/gallery') %> -->
+  
+  <section class="content container">
+    <%- page.content %>
+  </section>
+</div>
