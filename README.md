@@ -8,6 +8,7 @@ The website is available on the GitHub subdomain at [malvern-cads.github.io](htt
 
 - [ ] Finish theme partials
 - [ ] Remove unused theme partials
+- [x] Change Hero Image to the Malvern Hills
 
 ## 🍀 Contributing
 

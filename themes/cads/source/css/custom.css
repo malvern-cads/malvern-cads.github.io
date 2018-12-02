@@ -2,18 +2,11 @@
 
 /* STICKY FOOTER */
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 200px;
+.content {
+  min-height: 100vh;
 }
 
 #footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   /* height: 60px; */
 }
@@ -34,7 +27,7 @@ section {
 /* HERO */
 #hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("https://source.unsplash.com/iar-afB0QQw");
+    url("/img/hero.png");
 
   background-position: center;
   background-repeat: no-repeat;
