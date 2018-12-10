@@ -33,6 +33,13 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  text-align: center;
+}
+
+#hero-logo {
+  padding: 1em;
+  height: 10em;
 }
 
 /* ICONS */
