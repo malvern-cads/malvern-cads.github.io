@@ -1,5 +1,5 @@
 ---
-title: What We Did - Unplugged
+title: Unplugged - What We Did
 date: 2018-12-03 16:30:00
 tags: unplugged
 ---
