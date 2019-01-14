@@ -1,4 +1,18 @@
 <!-- jquery -->
-<%- js('js/jquery-3.3.1.slim.min.js') %>
+<%- js('js/jquery-3.3.1.min.js') %>
 <%- js('js/popper.min.js') %>
 <%- js('js/bootstrap.min.js') %>
+<script>
+  (function($){
+    'use strict';
+      $(window).on('load', function () {
+        setTimeout(() => {
+          if ($(".pre-loader").length > 0)
+          {
+              $(".pre-loader").fadeOut("slow");
+          }
+        }, 250);
+          
+      });
+  })(jQuery)
+</script>
