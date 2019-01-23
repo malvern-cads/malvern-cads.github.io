@@ -39,7 +39,8 @@ section {
 
 #hero-logo {
   padding: 1em;
-  height: 10em;
+  width: 25em;
+  max-width: 90vw;
 }
 
 /* ICONS */
