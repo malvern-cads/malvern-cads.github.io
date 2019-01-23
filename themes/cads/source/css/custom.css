@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
 
+/* POST CSS */
+
+.post-image {
+  width: 60vw;
+  text-align: center !important;
+  display: block;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 425px) {
+  .post-image {
+    width: 100%;
+  }
+}
+
 /* STICKY FOOTER */
 
 .content {
@@ -27,7 +46,7 @@ section {
 /* HERO */
 #hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/img/hero.png");
+    url("/img/hero.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
