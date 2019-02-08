@@ -2,7 +2,7 @@
 
 This is the official website for CADS.
 
-The website is available on the GitHub subdomain at [malvern-cads.github.io](https://malvern-cads.github.io/) and *soon* we might have a FQDN.
+The website is available on the GitHub subdomain at [malvern-cads.github.io](https://malvern-cads.github.io/) and [cadscheme.co.uk](https://cadscheme.co.uk).
 
 ## ✔️ Todo
 
