@@ -1,12 +1,13 @@
 <% if (page.total > 1) { %>
-    <div class="pagination">
+    <div class="btn-group">
+        <a class="btn btn-outline-success <%= (page.prev) ? '' : 'disabled' %>" href="<%- (page.prev) ? url_for(page.prev_link) : '' %>">Previous</a>
         <% if (page.prev) { %>
-            <a href="<%- url_for(page.prev_link) %>"><i class="fas fa-angle-left"></i></a>
+            <a class="btn btn-outline-success" href="<%- url_for(page.prev_link) %>"><%= page.prev %></a>
         <% } %>
-        <span class="page-number"><%= __('pagination.page', page.current, page.total) %></span>
+        <a class="btn btn-outline-success active" href="<%- url_for(page.current_url) %>"><%= page.current %></a>
         <% if (page.next) { %>
-            <a href="<%- url_for(page.next_link) %>"><i class="fas fa-angle-right"></i>
-            </a>
+            <a class="btn btn-outline-success" href="<%- url_for(page.next_link) %>"><%= page.next %></a>
         <% } %>
+        <a class="btn btn-outline-success <%= (page.next) ? '' : 'disabled' %>" href="<%- (page.next) ? url_for(page.next_link) : '' %>">Next</a>
     </div>
 <% } %>
