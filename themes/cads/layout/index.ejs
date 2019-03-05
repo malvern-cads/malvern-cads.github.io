@@ -2,6 +2,7 @@
   <div class="container">
     <img id="hero-logo" src="/img/logo.png">
     <p class="lead"><%= config.subtitle %></p>
+    <canvas id="hero-background"></canvas>
   </div>
 </section>
 
@@ -45,3 +46,22 @@
     <%- partial('_partial/pagination') %>
   <% } %>
 </section>
+
+<script>
+  window.onload = function() {
+    Particles.init({
+      selector: "#hero-background",
+      connectParticles: true,
+      maxParticles: 50,
+      color: "#ffffff",
+      responsive: [
+        {
+          breakpoint: 425,
+          options: {
+            maxParticles: 20
+          }
+        }
+      ]
+    });
+  };
+</script>

@@ -60,18 +60,34 @@ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("/img/hero.jpg");
 
+  z-index: -2;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 
   text-align: center;
+
+  min-height: 50vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero-logo {
   padding: 1em;
   width: 25em;
   max-width: 90vw;
+}
+
+#hero-background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 /* ICONS */
