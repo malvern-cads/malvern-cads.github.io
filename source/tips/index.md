@@ -6,6 +6,7 @@ The Internet is an amazing place. You can instantly share pictures of your cat, 
 
 To help you out we've compiled a short list of Online Safety tips to keep you safe when using computers.
 
+* **DON'T SCAN QR CODES - by scanning QR codes that you don't trust, you could be directed to a malicious website.**
 * Use a **different password** for each account (or use a password manager).
 * Only accept **follow requests** on social media from people you know directly (not just to get lots of followers).
 * Check that you are visiting a website with **https** (or a green padlock), this is more secure for typing sensitive information such as passwords.
