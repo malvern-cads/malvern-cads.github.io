@@ -1,14 +1,43 @@
 # 🌐 CADS Website
 
-This is the official website for CADS.
+[![GitHub last commit](https://img.shields.io/github/last-commit/malvern-cads/malvern-cads.github.io/source.svg?style=for-the-badge)](https://github.com/malvern-cads/malvern-cads.github.io/commits/source) [![Travis CI Status](https://img.shields.io/travis/com/malvern-cads/malvern-cads.github.io.svg?style=for-the-badge)](https://travis-ci.com/malvern-cads/malvern-cads.github.io) [![GitHub Repository Size](https://img.shields.io/github/repo-size/malvern-cads/malvern-cads.github.io.svg?style=for-the-badge)](https://github.com/malvern-cads/malvern-cads.github.io/tree/source)
 
-The website is available on the GitHub subdomain at [malvern-cads.github.io](https://malvern-cads.github.io/) and [cadscheme.co.uk](https://cadscheme.co.uk).
+<!-- TOC -->
 
-## ✔️ Todo
+- [🧱 Structure](#🧱-structure)
+- [🎨 Custom Theme](#🎨-custom-theme)
+  - [Structure](#structure)
+- [🍀 Contributing](#🍀-contributing)
+  - [Editing in your browser](#editing-in-your-browser)
+  - [Editing using Dev Tools](#editing-using-dev-tools)
+  - [After making a pull request](#after-making-a-pull-request)
 
-- [ ] Finish theme partials
-- [ ] Remove unused theme partials
-- [x] Change Hero Image to the Malvern Hills
+<!-- /TOC -->
+
+---
+
+This is the official website for CADS, containing a little bit of information about CADS and also a blog with posts from weekly meeting writeups [cadscheme.co.uk](https://cadscheme.co.uk).
+
+## 🧱 Structure
+
+As with all [Hexo](https://hexo.io) sites, there is 3 main directories:
+
+* **`scaffolds`** where all the 'templates' for blog posts and pages are stored. These templates include placeholders for things like the date and title to be inserted.
+* **`source`** where the 'raw' posts and pages are held. All these 'raw' posts and pages are written using Markdown, which is then converted to HTML and inserted into the theme once the site is generated.
+* **`themes`** where all the site's HTML, CSS and JS is contained. In the `themes` folder there is a folder for each of the installed themes.
+
+## 🎨 Custom Theme
+
+This site uses a custom built theme which is in the themes folder (`themes/cads`).
+
+### Structure
+
+My custom theme is split up into 3 folders:
+
+* **`layout`** where all of the HTML is contained, however, this isn't plain old HTML and is actually [EJS](https://ejs.co/). [EJS](https://ejs.co/) is an 'Embedded JavaScript templating' language which is essentially HTML with special tags (starting with `<%`) that let you embed server-side JavaScript. This server-side JavaScript allows us to insert the content from our `source` folder and insert them in.
+  * **`_partial`** are smaller, reusable bits of EJS code. There is a couple of files for things that are used over a lot of the pages such as the footer, navigation bar, etc..
+* **`scripts`** which are JavaScript files that get included in the build process. There is a file in there called `gitinfo.js` which is a little helper file which gets the current Git commit (which is shown in the footer).
+* **`source`** which contains 'raw' files that are just placed into the generated code. There is some CSS and images in here which just get put into the root directory of the built website.
 
 ## 🍀 Contributing
 
@@ -46,5 +75,5 @@ Then you can use the following commands:
 | `hexo new post <name>` | **Make a new blog post in `source/_posts`.** Make sure that the name is lowercase. Posts are written in Markdown. |
 | `hexo new page <name>` | **Make a new page in `source/_posts`.** Make sure that the name is lowercase. Pages are written in Markdown. Pages can be added to the navigation menus by editing `themes/cads/_config.yml` and adding a node to `nav`. |
 
-## After making a pull request
+### After making a pull request
 It might take a few hours up to a couple of days for your pull request to get reviewed. Once it has, the site will be automatically rebuilt with your changes.
