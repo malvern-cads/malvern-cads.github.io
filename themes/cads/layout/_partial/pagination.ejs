@@ -1,13 +1,13 @@
 <% if (page.total > 1) { %>
     <div class="btn-group">
-        <a class="btn btn-outline-success <%= (page.prev) ? '' : 'disabled' %>" href="<%- (page.prev) ? url_for(page.prev_link) : '' %>">Previous</a>
+        <a class="btn btn-outline-primary <%= (page.prev) ? '' : 'disabled' %>" href="<%- (page.prev) ? url_for(page.prev_link) : '' %>">Previous</a>
         <% if (page.prev) { %>
-            <a class="btn btn-outline-success" href="<%- url_for(page.prev_link) %>"><%= page.prev %></a>
+            <a class="btn btn-outline-primary" href="<%- url_for(page.prev_link) %>"><%= page.prev %></a>
         <% } %>
-        <a class="btn btn-outline-success active" href="<%- url_for(page.current_url) %>"><%= page.current %></a>
+        <a class="btn btn-outline-primary active" href="<%- url_for(page.current_url) %>"><%= page.current %></a>
         <% if (page.next) { %>
-            <a class="btn btn-outline-success" href="<%- url_for(page.next_link) %>"><%= page.next %></a>
+            <a class="btn btn-outline-primary" href="<%- url_for(page.next_link) %>"><%= page.next %></a>
         <% } %>
-        <a class="btn btn-outline-success <%= (page.next) ? '' : 'disabled' %>" href="<%- (page.next) ? url_for(page.next_link) : '' %>">Next</a>
+        <a class="btn btn-outline-primary <%= (page.next) ? '' : 'disabled' %>" href="<%- (page.next) ? url_for(page.next_link) : '' %>">Next</a>
     </div>
 <% } %>

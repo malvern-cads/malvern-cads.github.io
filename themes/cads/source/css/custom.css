@@ -1,16 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
-
-/* BRANDING */
-/*
-  Palette:  No. HEX....   R.., G.., B..
-            1   #00BC8C     0, 188, 140
-            2   #0DCD7B    13, 205, 123
-            3   #1CDE6B    28, 222, 107
-            4   #2DEE5B    45, 238,  91
-            5   #40FF4E    64, 255,  78
-  Font: Overpass Mono
-*/
-
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
 
 /* POST CSS */
 
@@ -40,12 +28,6 @@
 #footer {
   width: 100%;
   /* height: 60px; */
-}
-
-/* CUSTOM FONTS */
-
-* {
-  font-family: 'Overpass Mono', monospace;
 }
 
 /* GENERAL STYLING */
