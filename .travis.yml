@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 6.0.0
+- 10.16.0
 branches:
   only:
   - source
@@ -8,8 +8,8 @@ branches:
 install: npm install
 
 before_script:
-- git config --global user.name "Jake Walker"
-- git config --global user.email "hi@jakew.me"
+- git config --global user.name "JakeBot"
+- git config --global user.email "bot@jakew.me"
 - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
 
 script: npm run build
