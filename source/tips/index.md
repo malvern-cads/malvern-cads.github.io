@@ -15,4 +15,4 @@ To help you out we've compiled a short list of Online Safety tips to keep you sa
 * Always remember to **log off** when finished (especially on computers and other devices that other people are using)
 * Don't share **sensitive information** online. Make sure your address, school, phone number, etc... are not shown on your account.
 * If you receive any suspicious or distressing content online, block the account, **report** it and talk to an adult (parents or a teacher at school).
-* Make sure your antivirus/antimalware software is **up to date**.
+* Make sure your antivirus/anti-malware software is **up to date**.
