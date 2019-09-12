@@ -1,3 +1,4 @@
+name: Main Workflow
 on: 
   push:
     branches:
@@ -9,6 +10,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+    - name: Install
+      uses: actions/npm@master
+      with:
+        args: install
     - name: Clean
       uses: heowc/action-hexo@master
       with:
