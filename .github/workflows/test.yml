@@ -1,0 +1,25 @@
+name: Test Workflow
+on: [push, pull_request]
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Install
+      uses: actions/npm@master
+      with:
+        args: install --dev
+    - name: Test
+      uses: actions/npm@master
+      with:
+        args: test
+    - name: Clean
+      uses: heowc/action-hexo@master
+      with:
+        args: clean
+    - name: Generate
+      uses: heowc/action-hexo@master
+      with:
+        args: generate
