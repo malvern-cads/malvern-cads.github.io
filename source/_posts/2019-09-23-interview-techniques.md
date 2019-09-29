@@ -16,7 +16,7 @@ We were first shown this pie chart which shows how humans communicate.
 
 - The <span style="color: rgb(0, 188, 140)">green 7%</span> is words, so what you are actually talking about.
 - The <span style="color: rgb(52, 152, 219)">blue 38%</span> is 'how you say it', for example:
-    - Visual, auditory, kineasthetic
+    - Visual, auditory, kinaesthetic
     - Pitch
     - Pace
     - Volume
@@ -54,9 +54,9 @@ There are a couple of different body language features that can be picked up on 
 - **Body Movement** - if someone is tapping on the table or jiggling their leg, it can show that they are nervous.
 - **Mimicry**
 
-### Paralinguistics
+### Paralinguistic
 
-When speaking, we also give out some hidden informations about how we are feeling. The expression, rate, pitch contours and emphasis of different parts of speech can symbolise different emotions - for example:
+When speaking, we also give out some hidden information about how we are feeling. The expression, rate, pitch contours and emphasis of different parts of speech can symbolise different emotions - for example:
 
 - **I'VE** just eaten the biggest steak - Bragging
 - I've just **EATEN** the biggest steak - Full
@@ -80,7 +80,7 @@ Employers also like to use the **STAR** technique which means *Situation, Task, 
     <div class="col-sm-6"><h3 class="text-success">Open Questions</h3><p>Open questions encourage the free flow of information. They are usually questions starting with:</p><ul><li>How...</li><li>Why...</li><li>What...</li><li>Tell me...</li></ul></div>
     <div class="col-sm-6"><h3 class="text-danger">Closed Questions</h3><p>Closed questions control the dialogue, they usually only get responses of a couple of words. They are usually questions starting with:</p><ul><li>Did you...</li><li>Who...</li><li>When...</li></ul></div>
     <div class="col-sm-6"><h3 class="text-success">Neutral Questions</h3><p>Neutral questions (unlike leading questions) don't imply a bias. Examples could be:</p><ul><li>Tell me about your working relationship with *[bosses name]*?</li><li>What speeds were the cars travelling?</li></ul></div>
-    <div class="col-sm-6"><h3 class="text-danger">Leading Questions</h3><p>Leading questions imply a bias (i.e. that something <b>has</b> happened) and are prompting. Examples could be:</p><ul><li>Do you have any problems with your boss? <i>- implies that there is a problem</i></li><li>How fast was the red car going when it smashed into the blue car? <i>- imples that the red car crashed into the blue car, use of language like 'smashed' is quite emotive</i></li></ul></div>
+    <div class="col-sm-6"><h3 class="text-danger">Leading Questions</h3><p>Leading questions imply a bias (i.e. that something <b>has</b> happened) and are prompting. Examples could be:</p><ul><li>Do you have any problems with your boss? <i>- implies that there is a problem</i></li><li>How fast was the red car going when it smashed into the blue car? <i>- implies that the red car crashed into the blue car, use of language like 'smashed' is quite emotive</i></li></ul></div>
 </div>
 
 ### Barriers and Aids to Communication
@@ -97,7 +97,7 @@ Using a physical or 'virtual' barrier or aid can help to keep the interviewee at
 
 When preparing for an interview it is a good idea to think about the following things:
 
-- **The environment** - it's probably more comforatable to sit in a casual setting on some beanbags or maybe have a walk outside, than be in a conference room
+- **The environment** - it's probably more comfortable to sit in a casual setting on some beanbags or maybe have a walk outside, than be in a conference room
 - **The framework** - what do you want to find out during the interview?
 - **Tag-teaming** - if you have multiple people conducting the interview, who asks what and when?
 - **Research the person**
