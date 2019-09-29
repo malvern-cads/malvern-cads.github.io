@@ -6,3 +6,5 @@ node_modules/
 public/
 .deploy*/
 unminified-apply-challenge.js
+
+.vscode/
