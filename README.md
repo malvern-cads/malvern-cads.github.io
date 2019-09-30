@@ -1,22 +1,24 @@
 # 🌐 CADS Website
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/malvern-cads/malvern-cads.github.io/source.svg?style=for-the-badge)](https://github.com/malvern-cads/malvern-cads.github.io/commits/source) [![Travis CI Status](https://img.shields.io/travis/com/malvern-cads/malvern-cads.github.io.svg?style=for-the-badge)](https://travis-ci.com/malvern-cads/malvern-cads.github.io) [![GitHub Repository Size](https://img.shields.io/github/repo-size/malvern-cads/malvern-cads.github.io.svg?style=for-the-badge)](https://github.com/malvern-cads/malvern-cads.github.io/tree/source)
+[![GitHub last commit](https://img.shields.io/github/last-commit/malvern-cads/website/source.svg)](https://github.com/malvern-cads/website/commits/source) [![GitHub Actions Status](https://github.com/malvern-cads/website/workflows/Test%20Workflow/badge.svg)](https://github.com/malvern-cads/website/actions) [![GitHub Repository Size](https://img.shields.io/github/repo-size/malvern-cads/website.svg)](https://github.com/malvern-cads/website/tree/source)
 
 <!-- TOC -->
 
 - [🧱 Structure](#🧱-structure)
 - [🎨 Custom Theme](#🎨-custom-theme)
-  - [Structure](#structure)
+    - [Structure](#structure)
 - [🍀 Contributing](#🍀-contributing)
-  - [Editing in your browser](#editing-in-your-browser)
-  - [Editing using Dev Tools](#editing-using-dev-tools)
-  - [After making a pull request](#after-making-a-pull-request)
+    - [Editing in your browser](#editing-in-your-browser)
+    - [Editing using Dev Tools](#editing-using-dev-tools)
+    - [After making a pull request](#after-making-a-pull-request)
 
 <!-- /TOC -->
 
 ---
 
-This is the official website for CADS, containing a little bit of information about CADS and also a blog with posts from weekly meeting writeups [cadscheme.co.uk](https://cadscheme.co.uk).
+This is the official website for CADS, containing a little bit of information about CADS and also a blog with posts from weekly meeting writeups. The website is located at [cadscheme.co.uk](https://cadscheme.co.uk).
+
+The website is powered by a static site generator [Hexo](https://hexo.io) which takes a bunch of templates and 'raw' content and combines them into a website. This makes the website easy to manage and simplifies things a bit.
 
 ## 🧱 Structure
 
