@@ -24,7 +24,7 @@ The ultimate reward. If you're fortunate enough to show off your amazing talent 
 
 ### How to get started
 Head to [www.joincyberdiscovery.com](https://www.joincyberdiscovery.com "Explore Cyber Discovery") and sign up for an account.
-Once Completed then visit [assess.joincyberdiscovery.com](https://assess.joincyberdiscovery.com "Assess Login")to begin your journey into the thrilling world of cyber security.
+Once Completed then visit [assess.joincyberdiscovery.com](https://assess.joincyberdiscovery.com "Assess Login") to begin your journey into the thrilling world of cyber security.
 Good Luck!
 
 
