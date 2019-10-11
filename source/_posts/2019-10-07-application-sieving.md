@@ -1,6 +1,6 @@
 ---
 title: Application Seiving
-date: 2019-10-07 17:18:47
+date: 2019-10-07 16:30:00
 tags:
 ---
 From the knowledge that we got [last week](/2019/09/30/recruitment-process/), we wanted to go through all of the applications we had received in order to 'sieve' them down to a number of candidates to interview. It would be too time consuming to interview everybody so based off applications, we needed to only interview the top candidates.

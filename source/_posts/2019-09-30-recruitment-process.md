@@ -1,6 +1,6 @@
 ---
 title: Recruitement Process - What We Did
-date: 2019-09-30 17:10:05
+date: 2019-09-30 16:30:00
 tags:
 - interviewing
 - recruitment
