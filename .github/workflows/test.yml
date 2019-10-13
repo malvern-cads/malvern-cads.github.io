@@ -13,14 +13,14 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
     - name: Install
-      uses: actions/npm@master
-      with:
-        args: install --dev
+      run: npm install --dev
     - name: Test
-      uses: actions/npm@master
-      with:
-        args: test
+      run: npm test
     - name: Clean
       uses: heowc/action-hexo@master
       with:
