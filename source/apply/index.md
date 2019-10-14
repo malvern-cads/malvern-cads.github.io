@@ -2,15 +2,7 @@
 title: Apply to CADS
 date: 2019-09-10 11:15:57
 ---
-<!-- Looks like you've found a secret! Use the function getSecret() in the console. -->
-<script src="https://cads-apply.glitch.me/script.js"></script>
-<!-- Looks like you've found a secret! Use the function getSecret() in the console. -->
-
-<a href="./index/form.pdf" download="CADS-Application-Form" class="btn btn-block btn-primary btn-lg">Download Application Form</a>
-
-<p style="text-align: center;" class="text-warning"><b><u>Application forms must be handed in by Monday 7th October!</u></b></p>
-
-<b><span class="text-info">CADS are now accepting applications for Year 12 students at The Chase.</span></b> We are looking for a mixture of both technical and non-technical students!
+<div class="alert alert-danger" role="alert">Applications for 2019 have now closed! Check back here September/October 2020 where we will be looking for new students in Year 12.</div>
 
 ## What is CADS?
 
