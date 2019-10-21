@@ -1,67 +1,13 @@
-<section id="hero">
-  <div class="container">
-    <img id="hero-logo" src="/img/cads_logo.svg">
-    <p class="lead"><%= config.subtitle %></p>
-    <canvas id="hero-background"></canvas>
-  </div>
-</section>
-
-<section id="welcome" class="container">
+<div class="section">
   <h1>What is CADS?</h1>
   <p>
     CADS is a youth initiative setup by <a href="https://www.3sdl.com/">3SDL</a>,
     with the aim to encourage students from schools in the Malvern area to get
     involved with and gain experience in the Cyber Security industry.
   </p>
-  <!--<p>
-    View 
-    <a href="https://www.3sdl.com/news/cyber-security/about-the-cads.html">
-      this article by 3SDL</a>
-    for more information.
-  </p>-->
-</section>
+</div>
 
-<section id="blog" class="container">
-  <h1><%= __('index.articles') %></h1>
-
-  <ul class="list-group">
-    <% if (theme.posts_overview.show_all_posts) { %>
-      <% var show_posts = page.posts.sort('date', 'desc') %>
-    <% } else { %>
-      <% var show_posts = site.posts.sort('date', 'desc').limit(theme.posts_overview.post_count || 5) %>
-    <% } %>
-    <% show_posts.each(function(post, i){ %>
-      <li class="list-group-item">
-        <p class="mb-0">
-          <span>
-            <%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %>
-          </span>
-          - <%- partial('_partial/post/date', { post: post }) %>
-        </p>
-      </li>
-    <% }); %>
-  </ul>
-  <br>
-  <% if (theme.posts_overview.show_all_posts) { %>
-    <%- partial('_partial/pagination') %>
-  <% } %>
-</section>
-
-<script>
-  window.onload = function() {
-    Particles.init({
-      selector: "#hero-background",
-      connectParticles: true,
-      maxParticles: 50,
-      color: "#ffffff",
-      responsive: [
-        {
-          breakpoint: 425,
-          options: {
-            maxParticles: 20
-          }
-        }
-      ]
-    });
-  };
-</script>
+<div class="section">
+  <%- partial('partials/recent-posts') %>
+  <%- partial('partials/paginator') %>
+</div>

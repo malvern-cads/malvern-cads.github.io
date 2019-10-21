@@ -1,24 +1,83 @@
-<section id="archive">
-  <div class="container">
-    <ul class="list-group">
-      <% var year = 0 %>
-      <% var change = false %>
-      <% page.posts.sort('date', 'desc').each(function(post) { %>
-        <li class="list-group-item">
-          <p class="mb-0">
-            <span>
-              <%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %>
-            </span>
-            - <%- partial('_partial/post/date', { post: post }) %>
-          </p>
-        </li>
-      <% }); %>
-    </ul>
-  </div>
-</section>
+<% if (is_year() === false) { %>
+  <div class="section">
+    <%- partial("partials/list-post", {
+      posts: page.posts.sort('date', -1)
+    }); %>
 
-<section id="pagination">
-  <div class="container">
-    <%- partial('_partial/pagination') %>
+    <%- partial("partials/paginator"); %>
   </div>
-</section>
+
+    <div class="section">
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-header">
+            Categories
+          </div>
+          <ul class="list-group list-group-flush">
+            <% site.categories.forEach(cat => { %>
+              <a class="list-group-item list-group-item-action text-white" href="<%= url_for(cat.path) %>"><%= cat.name %></a>
+            <% }); %>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            Tags
+          </div>
+          <ul class="list-group list-group-flush">
+            <% site.tags.forEach(tag => { %>
+              <a class="list-group-item list-group-item-action text-white" href="<%= url_for(tag.path) %>"><%= tag.name %></a>
+            <% }); %>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            Archives
+          </div>
+          <%
+            const posts = site.posts.sort("date", -1);
+
+            const data = [];
+            let length = 0;
+
+            posts.forEach(post => {
+              let date = post.date.clone();
+
+              if (config.timezone) date = date.tz(config.timezone);
+              if (config.language) date = date.locale(config.language);
+
+              const year = date.year();
+              const month = date.month() + 1;
+              const name = date.format("YYYY");
+              const lastData = data[length - 1];
+
+              if (!lastData || lastData.name !== name) {
+                length = data.push({
+                  name,
+                  year,
+                  month,
+                  count: 1
+                });
+              } else {
+                lastData.count++;
+              }
+            });
+          %>
+          <ul class="list-group list-group-flush">
+            <% data.forEach(archive => { %>
+              <%
+                let url = `/${config.archive_dir}/${archive.year}/`;
+              %>
+              <a class="list-group-item list-group-item-action text-white" href="<%= url %>"><%= archive.name %> <span class="badge badge-primary"><%= archive.count %></span></a>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<% } else { %>
+  <%- partial("partials/list-post", {
+    posts: page.posts
+  }); %>
+
+  <%- partial("partials/paginator"); %>
+<% } %>
