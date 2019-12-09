@@ -17,15 +17,22 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
+        hint: "This is the tile of the post that is shown on the website, keep it short but descriptive."
       - label: "Publish Date"
         name: "date"
         widget: "datetime"
+        hint: "Set this date to whenever you started working on the post."
       - label: "Tags"
         name: "tags"
         widget: "list"
+        hint: "This is to group a post specifically (e.g. osint, programming, linux, etc...). This should be a comma separated list."
+        required: false
       - label: "Categories"
         name: "categories"
         widget: "list"
+        default: ["sessions"]
+        hint: "This is to group posts generally (e.g. events, sessions, etc...). This should be a comma separated list."
+        required: false
       - label: "Body"
         name: "body"
         widget: "markdown"
