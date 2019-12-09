@@ -1,7 +1,8 @@
 ---
 title: Final Demos
 date: 2019-11-22 16:30:00
-tags:
+categories:
+  - sessions
 ---
 This (and last) week, we've been working on the demos and the board. Although the board is still being worked on, our demonstrations were finalized in this session and are going to be shown to the company on the 24th November (hopefully it goes well)!
 

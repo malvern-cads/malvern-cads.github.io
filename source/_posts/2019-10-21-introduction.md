@@ -1,7 +1,8 @@
 ---
 title: Introduction
 date: 2019-10-21 16:30:00
-tags:
+categories:
+  - sessions
 ---
 This week was the first meeting with our new CADS members. We started off with a little summary of what CADS is, who runs it and what kind of things we would get up to in the next month or so.
 

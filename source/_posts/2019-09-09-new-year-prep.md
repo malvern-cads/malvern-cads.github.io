@@ -2,7 +2,9 @@
 title: New Year Prep - What We Did
 date: 2019-09-09 16:30:00
 tags:
-- meta
+  - meta
+categories:
+  - sessions
 ---
 
 After a long summer holiday, we are back at school again and in preparation for the new Year 12s joining, we were talking through some ways to switch up the application process this year.

@@ -4,7 +4,7 @@ date: 2019-12-09T16:30:00.000Z
 tags:
   - meta
 categories:
-  - session
+  - sessions
 ---
 This week, we were split into two teams again, one of the teams finished up work on the board which is going to show people at our school about what CADS does with some posters and other things about how to stay safe online.
 

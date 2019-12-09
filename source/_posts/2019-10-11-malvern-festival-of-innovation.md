@@ -1,7 +1,8 @@
 ---
 title: Malvern Festival of Innovation Cyber Day
 date: 2019-10-10 17:00:00
-tags:
+categories:
+  - events
 ---
 This year, a local festival near us called the ['Malvern Festival of Innovation'](https://www.festival-innovation.com/) were hosting a Cyber Security Day and this was opportunity was turned into a mini-trip. Only 8 of us attended in the end as it took up the whole school day.
 

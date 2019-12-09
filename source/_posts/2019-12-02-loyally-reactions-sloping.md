@@ -1,7 +1,8 @@
 ---
 title: Loyally Reactions Sloping
 date: 2019-12-02 16:30:00
-tags:
+categories:
+  - sessions
 ---
 You might be wondering what the weird title of this article is. It was actually a challenge that was set for this weeks meeting and we had to figure out what the words meant. We were split up into 2 teams and were challenged with finding out the story behind these words.
 

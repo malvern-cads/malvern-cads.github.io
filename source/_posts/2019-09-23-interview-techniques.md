@@ -2,8 +2,10 @@
 title: Interviewing Techniques - What We Did
 date: 2019-09-23 16:30:00
 tags:
-- interviewing
-- softskills
+  - interviewing
+  - softskills
+categories:
+  - sessions
 ---
 
 This week, we were learning about different interviewing techniques, focusing on both being interviewed and interviewing someone.

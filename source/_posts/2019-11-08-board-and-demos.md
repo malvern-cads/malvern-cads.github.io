@@ -1,7 +1,8 @@
 ---
 title: Board and Demos
 date: 2019-11-08 16:30:00
-tags:
+categories:
+  - sessions
 ---
 This week, we switched things up a bit and had a meeting on Friday afternoon, this was just because of people being unavailable on Monday.
 

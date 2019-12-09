@@ -2,9 +2,11 @@
 title: Recruitement Process - What We Did
 date: 2019-09-30 16:30:00
 tags:
-- interviewing
-- recruitment
-- softskills
+  - interviewing
+  - recruitment
+  - softskills
+categories:
+  - sessions
 ---
 
 This week was another HR/interview based session, focusing more on the recruitment process 'behind the scenes' and some of the steps that the HR people go through from taking in applications to finishing with some new employees.
