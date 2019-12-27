@@ -1,29 +1,6 @@
-<div class="post">
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1>
-        <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
-      </h1>
-      <p class="lead">
-        <% if (page.author) { %>
-          by <%- page.author %>
-        <% } %>
-        <% if (page.date) { %>
-          Published <%- partial('_partial/post/date', { post: page, class_name: '' }) %>
-        <% } %>
-      </p>
-      <% if (page.categories && page.categories.length) { %>
-        <p><b>Categories:</b> <%- partial('_partial/post/category') %></p>
-      <% } %>
-      <% if (page.tags && page.tags.length) { %>
-        <p><b>Tags:</b> <%- partial('_partial/post/tag') %></p>
-      <% } %>
-        <p><b>Read Time:</b> <%- readingTime(page.content, "minutes", 200) %></p>
-      </p>
-    </div>
-  </div>
-  
-  <section class="content container">
-    <%- page.content %>
-  </section>
-</div>
+
+<article id="post">
+  <%- page.content %>
+</article>
+
+<%- partial("partials/paginator"); %>

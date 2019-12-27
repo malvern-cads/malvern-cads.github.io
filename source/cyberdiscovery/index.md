@@ -3,8 +3,6 @@ title: Cyber Discovery
 date: 2019-09-13 19:32:25
 ---
 
-# Cyber Discovery
-
 Cyber Discovery is a free online programme aimed at 13-18 year olds (i.e. Yr 9-13). It aspires to discover hidden talent within the cyber security discipline, through an exciting range of online challenges.
 
 There are 4 main stages:
