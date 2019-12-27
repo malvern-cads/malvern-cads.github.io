@@ -1,0 +1,280 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <!-- responsive and requried meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>The Darknet - What We Did | CADS</title>
+
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/cads.css">
+
+  <!-- favicon and theme meta tags -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00bc8c">
+  <meta name="msapplication-TileColor" content="#00bc8c">
+  <meta name="theme-color" content="#00bc8c">
+
+  <!-- social media meta tags -->
+  <meta property="og:image" content="https://cadscheme.co.uk/img/og-image.jpg">
+  <meta property="og:image:width" content="205">
+  <meta property="og:image:height" content="307">
+  <meta property="og:title" content="CADS">
+  <meta property="og:description" content="CADS is an initiative setup by 3SDL. The aim is to encourage students from schools in the Malvern area to get involved and gain experience in Cyber Security.">
+  <meta property="og:url" content="https://cadscheme.co.uk">
+
+  <!-- seo meta tags -->
+  <meta name="description" content="CADS is an initiative setup by 3SDL. The aim is to encourage students from schools in the Malvern area to get involved and gain experience in Cyber Security.">
+  <meta name="keywords" content="cads, 3sdl, malvern, cyber, security, sixth form, chase, students, club, session, soft skills">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="1 month">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<body>
+
+<div class="content">
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand font-p" href="/">CADS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarContent">
+    <ul class="navbar-nav mr-auto">
+      
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/">Home </a>
+        </li>
+      
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/archives/">Blog </a>
+        </li>
+      
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/cyberdiscovery/">Cyber Discovery </a>
+        </li>
+      
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/cybercenturion/">Cyber Centurion </a>
+        </li>
+      
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/tips/">Online Safety </a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+   
+
+  
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">The Darknet - What We Did</h1>
+    
+      
+        <p class="lead meta-item">
+          <i class="fas fa-calendar-alt fa-fw"></i> &nbsp; Published Mon 1 Apr 2019 4:30 pm
+        </p>
+      
+      
+      <p class="lead meta-item">
+        <i class="fas fa-stopwatch fa-fw"></i> &nbsp; 7 min. read
+      </p>
+
+      
+        <p class="lead meta-item">
+          <i class="fas fa-cubes fa-fw"></i> &nbsp; <a class="category-link" href="/categories/sessions/">sessions</a>
+        </p>
+      
+
+      
+        <p class="lead meta-item">
+          <i class="fas fa-tags fa-fw"></i> &nbsp; <a class="tag-link" href="/tags/dark-web/">dark-web</a>, <a class="tag-link" href="/tags/tor/">tor</a>
+        </p>
+      
+    
+  </div>
+</div>
+  
+  
+  <div class="container" id="main-content">
+    <div class="row">
+      <div class="col-lg-8">
+        
+<article id="post">
+  <p>This week we learnt about <strong>The Darknet</strong> and <strong>Tor</strong>.</p>
+<p>Tor is free and open-source software for enabling anonymous communication. The core principle of Tor, “onion routing”, was developed in the mid-1990s by US Navy Research Labs, to protect US intelligence communications online.</p>
+<h1 id="An-overview-of-Tor"><a href="#An-overview-of-Tor" class="headerlink" title="An overview of Tor"></a>An overview of Tor</h1><h2 id="How-does-Tor-work"><a href="#How-does-Tor-work" class="headerlink" title="How does Tor work?"></a>How does Tor work?</h2><p>When you’re visiting a website using your web browser, your request for the website leaves your computer and goes to your Internet Service Provider and then continues from there onto the website that you want to visit.</p>
+<p>A big problem with this is that your Internet Service Provider (and any other middlemen such as school or workplace proxy servers) and government can see exactly which pages you are looking at on the internet. This isn’t a huge problem because ISPs don’t actively look at what you are doing.</p>
+<p><img class="post-image" src="/2019/04/01/what-we-did-14/how-does-the-internet-work.jpg" alt></p>
+<p>For people wanting to avoid the eavesdropping, this is where Tor comes in. When you visit a website using Tor, your request is <strong>encrypted</strong>, sent to your ISP and instead of going directly to the website, your request goes through lots of random computers (or nodes). The request goes through a couple of ‘relays’ then reaches the ‘exit node’ (which is again random) where the request is decrypted and goes to the website’s servers. The response to the request goes back to a different node where it is <strong>encrypted</strong> again and sent back through another bunch of random computers. This random connection is called a <strong>Tor Circuit</strong>.</p>
+<p>By using this method of routing requests and responses, the ISP (and other middlemen) can’t see which websites you are accessing (because the request goes to a random node and not directly to the website) and they can’t see what you are doing on that website (since the data is encrypted).</p>
+<p><img class="post-image" src="/2019/04/01/what-we-did-14/how-does-tor-work.jpg" alt></p>
+<h2 id="Why-would-someone-use-Tor"><a href="#Why-would-someone-use-Tor" class="headerlink" title="Why would someone use Tor?"></a>Why would someone use Tor?</h2><p>The are lots of genuine uses for Tor, in fact it, is used by journalists, whistle-blowers and government officials to protect their identities and stop confidential information being leaked. However, since it’s very difficult (almost impossible) to track down the person using Tor, it has been used by lots of criminals, drug dealers and terrorists for their illegal activities.</p>
+<h2 id="The-Surface-Web-Deep-Web-and-Dark-Web"><a href="#The-Surface-Web-Deep-Web-and-Dark-Web" class="headerlink" title="The Surface Web, Deep Web and Dark Web"></a>The Surface Web, Deep Web and Dark Web</h2><p><img class="post-image" src="/2019/04/01/what-we-did-14/internet-sections.png" alt></p>
+<p>The internet can be thought of as a glacier. The tip of the glacier or Surface Web is the parts of the internet that you’ll usually be using. All of the surface web can be searched for on search engines like Google and Bing.</p>
+<p>However, almost 90% of the internet can’t be searched for on Google or Bing and this forms the Deep Web. These are all pages that you can’t search for, for example, you can easily find Instagram by Googling for it, you can look at the most popular posts but once you login, you are now in the Deep Web. This is because your Instagram feed can’t be searched for on Google (especially when you are following private accounts) - you need to go through a ‘door’ to access it.</p>
+<p>But there’s an even darker part of the Deep Web called the Dark Web. This is where there is lots of illegal activity and you can find marketplaces for drugs, illegal guns, stolen credit cards and even assassins. You can probably imagine some of the worse things that you can find on the Dark Web. You can also probably imagine that the people running these websites would have a serious hit to their real life reputation (and probably be locked away in prison) if other people found out that they were running these websites, so they host their websites on the Dark Web to keep their identity completely anonymous.</p>
+<h2 id="So-Tor-is-illegal"><a href="#So-Tor-is-illegal" class="headerlink" title="So Tor is illegal?"></a>So Tor is illegal?</h2><p>Actually using Tor isn’t illegal, but it’s what you do using Tor which is illegal. If you wanted to, you could use Tor for all of your normal web browsing like checking your Twitter, your emails and what not. But it starts to become illegal when you start buying drugs or engaging in other illegal activities.</p>
+<h1 id="What-we-did"><a href="#What-we-did" class="headerlink" title="What we did"></a>What we did</h1><p>This week was all about learning about how Tor can be used to be anonymous online and the dangers of the Darknet.</p>
+<p>So at the start of the session we opened up the Tor Browser, this is a special web browser (like Google Chrome, Firefox or Safari) which lets you access the Tor network.</p>
+<p>The Tor Browser is a specially modified version of Firefox which has a few extensions installed which add a layer of anonymity and protection.</p>
+<p><img class="post-image" src="/2019/04/01/what-we-did-14/tor-browser.png" alt></p>
+<p>We then had a look at a specially created list of Tor websites, we found things ranging from forums filled with hackers to marketplaces. Just on this directory of Tor websites, we managed to find hackers that you can hire for €250, massive forums, anonymous email hosting, website hosting and various marketplaces selling items from drugs to credit card information.</p>
+<p>This quick glimpse on the Dark Web definitely gave everyone a scare into how easy it is to get access to dangerous illegal services and sometimes how inexpensive some of the things were.</p>
+<h1 id="Wrapping-Up"><a href="#Wrapping-Up" class="headerlink" title="Wrapping Up"></a>Wrapping Up</h1><p>The Dark Web is a very dangerous place with lots of illegal activity going on.</p>
+<p><strong>Please don’t use Tor, we had adults on hand with experience to stop us from going to places that would get us into trouble.</strong> But that definitely shouldn’t stop you from having an interest in the Dark Web, it’s amazing how there is a whole other section of the internet that we never think about and how all this complicated technology can let criminals have a completely anonymous marketplace.</p>
+<p>If this article was interesting, I’d definitely recommend <a href="https://darknetdiaries.com/episode/24/" target="_blank" rel="noopener">this episode</a> of a podcast that I listen to called <a href="https://darknetdiaries.com/" target="_blank" rel="noopener">Darknet Diaries</a> which is all about Darknet marketplaces and how they have been shutdown by governments and the people running them being caught.</p>
+
+</article>
+
+
+      </div>
+      <div class="col-lg-4">  
+        <div class="sidebar-card card">
+  <div class="card-header">
+    Tag Cloud
+  </div>
+  <div class="card-body">
+    <a href="/tags/crime/" style="font-size: 10px;">crime</a> <a href="/tags/cvi/" style="font-size: 15px;">cvi</a> <a href="/tags/dark-web/" style="font-size: 10px;">dark-web</a> <a href="/tags/interviewing/" style="font-size: 12.5px;">interviewing</a> <a href="/tags/meta/" style="font-size: 20px;">meta</a> <a href="/tags/osint/" style="font-size: 10px;">osint</a> <a href="/tags/physical-security/" style="font-size: 12.5px;">physical-security</a> <a href="/tags/recruitment/" style="font-size: 10px;">recruitment</a> <a href="/tags/secure-coding/" style="font-size: 10px;">secure-coding</a> <a href="/tags/softskills/" style="font-size: 12.5px;">softskills</a> <a href="/tags/tor/" style="font-size: 10px;">tor</a> <a href="/tags/unplugged/" style="font-size: 17.5px;">unplugged</a> <a href="/tags/worcestershire-skills-show/" style="font-size: 15px;">worcestershire-skills-show</a>
+  </div>
+</div>
+        <div class="sidebar-card card">
+  <div class="card-header">
+    Recent Posts
+  </div>
+  <ul class="list-group list-group-flush">
+    
+      <a class="list-group-item" href="/2019/12/09/more-planning/">More Planning</a>
+    
+      <a class="list-group-item" href="/2019/12/02/loyally-reactions-sloping/">Loyally Reactions Sloping</a>
+    
+      <a class="list-group-item" href="/2019/11/22/final-demos/">Final Demos</a>
+    
+      <a class="list-group-item" href="/2019/11/08/board-and-demos/">Board and Demos</a>
+    
+      <a class="list-group-item" href="/2019/10/21/introduction/">Introduction</a>
+    
+  </ul>
+</div>
+        <div class="sidebar-card card">
+  <div class="card-header">
+    Archives
+  </div>
+  
+  <ul class="list-group list-group-flush">
+    
+      
+      <a class="list-group-item" href="archives/2019/12/">December 2019 <span class="badge badge-primary">2</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2019/11/">November 2019 <span class="badge badge-primary">2</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2019/10/">October 2019 <span class="badge badge-primary">3</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2019/09/">September 2019 <span class="badge badge-primary">4</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2019/06/">June 2019 <span class="badge badge-primary">2</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2019/04/">April 2019 <span class="badge badge-primary">1</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2019/03/">March 2019 <span class="badge badge-primary">4</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2019/02/">February 2019 <span class="badge badge-primary">3</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2019/01/">January 2019 <span class="badge badge-primary">4</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2018/12/">December 2018 <span class="badge badge-primary">2</span></a>
+    
+      
+      <a class="list-group-item" href="archives/2018/11/">November 2018 <span class="badge badge-primary">1</span></a>
+    
+  </ul>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer" class="section bg-dark text-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h5>CADS</h5>
+        <p class="text-muted">
+          Powered by <a href="https://hexo.io/">Hexo Blog Framework</a>.
+        </p>
+        <p class="text-muted">
+          Licensed under the
+          <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPL v3.0 licence</a>
+          and source code is available on
+          <a href="https://www.github.com/jake-walker/jakew.me/tree/source">GitHub</a>.
+        </p>
+        <p class="text-muted">
+          <small>
+            <i>
+              Running Version b50369e (Update CADS Theme), built on Fri 27 Dec 2019 11:38 am.
+            </i>
+          </small>
+        </p>
+      </div>
+      <div class="col-md-6 text-md-right">
+        <h5>Nav</h5>
+        <ul class="nav flex-column">
+           
+            <li>
+              <a href="/">Home</a>
+            </li>
+           
+            <li>
+              <a href="/archives/">Blog</a>
+            </li>
+           
+            <li>
+              <a href="/cyberdiscovery/">Cyber Discovery</a>
+            </li>
+           
+            <li>
+              <a href="/cybercenturion/">Cyber Centurion</a>
+            </li>
+           
+            <li>
+              <a href="/tips/">Online Safety</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+</body>
+</html>
