@@ -1,6 +1,27 @@
-# 🌐 CADS Website
+<h1 align="center">
+	<img
+		width="300"
+		alt="CADS"
+		src="https://raw.githubusercontent.com/malvern-cads/malvern-cads.github.io/source/themes/cads/source/img/cads_logo.svg?sanitize=true">
+</h1>
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/malvern-cads/website/source.svg)](https://github.com/malvern-cads/website/commits/source) [![GitHub Actions Status](https://github.com/malvern-cads/website/workflows/Test%20Workflow/badge.svg)](https://github.com/malvern-cads/website/actions) [![GitHub Repository Size](https://img.shields.io/github/repo-size/malvern-cads/website.svg)](https://github.com/malvern-cads/website/tree/source)
+<h3 align="center">
+	The main CADS website and blog
+</h3>
+
+<p align="center">
+	<strong>
+		<a href="https://cadscheme.co.uk/">Website</a>
+		•
+		<a href="https://cadscheme.co.uk/archives/">Blog</a>
+	</strong>
+</p>
+<p align="center">
+	<a href="https://app.netlify.com/sites/cadscheme/deploys"><img alt="Netlify Build Status" src="https://img.shields.io/netlify/96846975-f8c9-4d17-80d3-a82036581bb7?style=flat-square"></a>
+	<a href="https://github.com/malvern-cads/malvern-cads.github.io/commits/source"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/malvern-cads/malvern-cads.github.io/source?style=flat-square"></a>
+	<a href="https://github.com/malvern-cads/malvern-cads.github.io/actions"><img alt="GitHub Actions Build Status" src="https://img.shields.io/github/workflow/status/malvern-cads/malvern-cads.github.io/Test Workflow/source?style=flat-square"></a>
+	<a href="https://github.com/malvern-cads/website/tree/source"><img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/malvern-cads/malvern-cads.github.io?style=flat-square"></a>
+</p>
 
 <!-- TOC -->
 
@@ -19,6 +40,8 @@
 This is the official website for CADS, containing a little bit of information about CADS and also a blog with posts from weekly meeting writeups. The website is located at [cadscheme.co.uk](https://cadscheme.co.uk).
 
 The website is powered by a static site generator [Hexo](https://hexo.io) which takes a bunch of templates and 'raw' content and combines them into a website. This makes the website easy to manage and simplifies things a bit.
+
+We are currently hosting the website using [Netlify](https://netlify.com) which automatically builds and deploys the website when code is changed in the repository. It also manages automatic HTTPS and simplifies things further.
 
 ## 🧱 Structure
 
