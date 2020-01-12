@@ -8,7 +8,8 @@
   "scripts": {
     "build": "hexo clean && hexo generate && hexo deploy",
     "test": "run-p --aggregate-output --continue-on-error test:*",
-    "test:spell": "mdspell -rna --en-gb source/**/*.md"
+    "test:spell": "mdspell -rna --en-gb source/**/*.md",
+    "preview": "hexo serve"
   },
   "dependencies": {
     "git-rev-sync": "^1.12.0",
