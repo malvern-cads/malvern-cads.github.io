@@ -9,7 +9,7 @@
     "build": "hexo clean && hexo generate && hexo deploy",
     "test": "run-p --aggregate-output --continue-on-error test:*",
     "test:spell": "mdspell -rna --en-gb source/**/*.md",
-    "preview": "hexo serve"
+    "preview": "hexo server -p 8080"
   },
   "dependencies": {
     "git-rev-sync": "^1.12.0",
