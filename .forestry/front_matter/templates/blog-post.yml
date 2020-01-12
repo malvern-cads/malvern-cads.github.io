@@ -1,13 +1,33 @@
 ---
 label: Blog Post
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  description: The is the title of the post that is shown on the website, keep it
+    short but descriptive.
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
-- type: list
-  name: categories
-  label: categories
+  label: Publish Date
+  description: Set this date to whenever you started working on the post.
+  config:
+    date_format: ddd Do MMM YY
+    time_format: h:mm a
+    export_format: YYYY-MM-DD HH:mm:ss
+    required: true
+  default: now
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+  description: This is to group posts generally (e.g. events, sessions, etc...).
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: This is to group posts more specifically (e.g. security, soft-skills,
+    etc...). Look at similar posts to make sure that you use the same tags.
