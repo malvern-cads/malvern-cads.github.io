@@ -14,6 +14,17 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: md
+  templates:
+  - blog-post
+- type: directory
+  path: source
+  label: Pages
+  create: all
+  match: "**/*"
+  exclude: "{_posts/**/*,*}"
+  new_doc_ext: ".md"
+  templates:
+  - page
 upload_dir: source/uploads
 public_path: "/uploads"
 front_matter_path: ''
