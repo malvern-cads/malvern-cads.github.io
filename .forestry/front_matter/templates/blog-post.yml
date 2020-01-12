@@ -31,5 +31,3 @@ fields:
   label: Tags
   description: This is to group posts more specifically (e.g. security, soft-skills,
     etc...). Look at similar posts to make sure that you use the same tags.
-pages:
-- source/_posts/test-post.md
