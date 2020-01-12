@@ -2,7 +2,7 @@
 	<img
 		width="300"
 		alt="CADS"
-		src="https://raw.githubusercontent.com/malvern-cads/malvern-cads.github.io/source/themes/cads/source/img/cads_logo.svg?sanitize=true">
+		src="https://raw.githubusercontent.com/malvern-cads/website/source/themes/cads/source/img/cads_logo.svg?sanitize=true">
 </h1>
 
 <h3 align="center">
@@ -20,9 +20,9 @@
 </p>
 <p align="center">
 	<a href="https://app.netlify.com/sites/cadscheme/deploys"><img alt="Netlify Build Status" src="https://img.shields.io/netlify/96846975-f8c9-4d17-80d3-a82036581bb7?style=flat-square"></a>
-	<a href="https://github.com/malvern-cads/malvern-cads.github.io/actions?query=workflow%3ATest"><img alt="Build Status" src="https://img.shields.io/github/workflow/status/malvern-cads/malvern-cads.github.io/Test/source?style=flat-square"></a>
-	<a href="https://github.com/malvern-cads/malvern-cads.github.io/commits/source"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/malvern-cads/malvern-cads.github.io/source?style=flat-square"></a>
-	<a href="https://github.com/malvern-cads/website/tree/source"><img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/malvern-cads/malvern-cads.github.io?style=flat-square"></a>
+	<a href="https://github.com/malvern-cads/website/actions?query=workflow%3ATest"><img alt="Build Status" src="https://img.shields.io/github/workflow/status/malvern-cads/website/Test/source?style=flat-square"></a>
+	<a href="https://github.com/malvern-cads/website/commits/source"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/malvern-cads/website/source?style=flat-square"></a>
+	<a href="https://github.com/malvern-cads/website/tree/source"><img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/malvern-cads/website?style=flat-square"></a>
 </p>
 
 <!-- TOC -->
