@@ -1,4 +1,4 @@
-# 🌐 CADS Website
+# CADS Website
 
 If you are viewing this on GitHub, you are probably on the `master` branch. This is the branch that stores the actual content of the website, it is automatically compiled/built when there are changes in the `source` branch.
 
