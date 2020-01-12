@@ -1,4 +1,22 @@
 ---
 label: Page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: 'This is the title of the page which is shown on the website, keep
+    it short but descriptive. '
+- name: date
+  type: datetime
+  label: Publish Date
+  description: Set this date to whenever you started work on the page.
+  config:
+    required: false
+    date_format: ddd Do MMM YY
+    time_format: h:mm a
+    display_utc: false
+    export_format: YYYY-MM-DD HH:mm:ss
+  default: now
