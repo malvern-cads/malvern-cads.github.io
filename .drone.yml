@@ -1,0 +1,22 @@
+---
+kind: pipeline
+type: docker
+name: publish
+
+steps:
+  - name: build
+    image: node:current-alpine
+    volumes:
+      - name: site
+        path: /var/www
+    commnads:
+      - apk add --no-cache rsync
+      - yarn global add hexo
+      - yarn install
+      - hexo clean && hexo generate
+      - rsync -vrh --delete-after public/ /var/www/
+
+volumes:
+  - name: site
+    host:
+      path: /root/cads/www
