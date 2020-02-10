@@ -9,8 +9,8 @@ steps:
     volumes:
       - name: site
         path: /var/www
-    commnads:
-      - apk add --no-cache rsync
+    commands:
+      - apk add --no-cache rsync git
       - yarn global add hexo
       - yarn install
       - hexo clean && hexo generate
@@ -20,3 +20,7 @@ volumes:
   - name: site
     host:
       path: /root/cads/www
+
+trigger:
+  branch:
+    - source
