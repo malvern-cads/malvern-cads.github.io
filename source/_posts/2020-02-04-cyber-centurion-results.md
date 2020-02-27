@@ -1,7 +1,7 @@
 ---
 title: Cyber Centurion Results
 date: 2020-02-04 11:43:06
-tags: cyber-centurion
+tags: cybercenturion
 categories: events
 ---
 
