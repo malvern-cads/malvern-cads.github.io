@@ -32,4 +32,6 @@ The remaining two hours went past quickly, and it got frantic in the last 5 minu
 
 We then had another talk from a company and then it was the awards ceremony. They first went through the junior teams in reverse order and then the senior teams. Our first team came third place out of the senior teams, and we got bronze medals, then the two other teams were called out who got silver and gold medals respectively and the grand prize was an all-expenses paid trip to the US. Our second CADS team came 8<sup>th</sup> which is still a great achievement as there was 15 teams in the finals.
 
+<img class="post-image" src="{% asset_path "medals.jpg" %}" alt="Photo of the winning team with bronze medals"/>
+
 <img class="post-image" src="{% asset_path "all.jfif" %}" alt="Photo of all the teams participating at the finals"/>
