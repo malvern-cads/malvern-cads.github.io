@@ -1,31 +1,31 @@
 name: Test
-on:	
-  push:	
-    branches:	
-    - source	
-  pull_request:	
-    branches:	
-    - source	
-jobs:	
-  test:	
-    name: Test	
-    runs-on: ubuntu-latest	
-    steps:	
-    - name: Checkout	
-      uses: actions/checkout@v1	
-    - name: Setup Node	
-      uses: actions/setup-node@v1	
-      with:	
-        node-version: '10.x'	
-    - name: Install	
-      run: npm install --dev	
-    - name: Test	
-      run: npm test	
-    - name: Clean	
-      uses: heowc/action-hexo@master	
-      with:	
-        args: clean	
-    - name: Generate	
-      uses: heowc/action-hexo@master	
-      with:	
+on:
+  push:
+    branches:
+    - source
+  pull_request:
+    branches:
+    - source
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    - name: Install
+      run: npm install --dev
+    - name: Test
+      run: npm test
+    - name: Clean
+      uses: heowc/action-hexo@master
+      with:
+        args: clean
+    - name: Generate
+      uses: heowc/action-hexo@master
+      with:
         args: generate
