@@ -22,10 +22,10 @@ jobs:
     - name: Test
       run: npm test
     - name: Clean
-      uses: heowc/action-hexo@master
+      uses: heowc/action-hexo@main
       with:
         args: clean
     - name: Generate
-      uses: heowc/action-hexo@master
+      uses: heowc/action-hexo@main
       with:
         args: generate
