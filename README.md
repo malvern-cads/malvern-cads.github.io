@@ -23,6 +23,7 @@
 	<a href="https://github.com/malvern-cads/website/actions?query=workflow%3ATest"><img alt="Build Status" src="https://img.shields.io/github/workflow/status/malvern-cads/website/Test/source?style=flat-square"></a>
 	<a href="https://github.com/malvern-cads/website/commits/source"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/malvern-cads/website/source?style=flat-square"></a>
 	<a href="https://github.com/malvern-cads/website/tree/source"><img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/malvern-cads/website?style=flat-square"></a>
+	<a href="https://gitpod.io/#https://github.com/malvern-cads/website"><img alt="Gitpod ready-to-code" src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod"></a>
 </p>
 
 <!-- TOC -->
