@@ -22,12 +22,16 @@
       </div>
       <div class="col-md-6 text-md-right">
         <h5>Nav</h5>
-        <ul class="nav flex-column">
-          <% for (var i in theme.nav) { %> 
+        <ul class="nav flex-column mb-3">
+          <% for (var i in theme.nav) { %>
             <li>
               <a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a>
             </li>
           <% } %>
+        </ul>
+        <h5>Meta</h5>
+        <ul class="nav flex-column mb-3">
+          <li><a href="/admin">Admin</a></li>
         </ul>
       </div>
     </div>
