@@ -33,7 +33,7 @@ If you'd like to get more information, try and find a Year 13 student at lunchti
 
       <label for="exampleInputEmail1">Last Name</label>
 
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
 
     </div>
 
@@ -43,7 +43,7 @@ If you'd like to get more information, try and find a Year 13 student at lunchti
 
       <label for="exampleInputPassword1">Password</label>
 
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
 
     </div>
 
