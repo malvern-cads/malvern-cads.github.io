@@ -1,12 +1,13 @@
 ---
 title: Apply to CADS
-date: 2019-09-10 11:15:57
+date: 2019-09-10T11:15:57.000+00:00
+
 ---
-<div class="alert alert-danger" role="alert">Applications for 2019 have now closed! Check back here September/October 2020 where we will be looking for new students in Year 12.</div>
+<div class="alert alert-danger" role="success">Applications for 2020 are open!</div>
 
 ## What is CADS?
 
-CADS is a club held at the Chase every Monday from 3:30 pm to 4:30 pm. Meetings range from learning about different cyber tools to building on key skills such as public speaking, CV writing, etc... _Lots of our meetings last year are summarised in our [blog](/archives)._
+CADS is a club held at the Chase every Monday from 3:30 pm to 4:30 pm. Meetings range from learning about different cyber tools to building on key skills such as public speaking, CV writing, etc... _Lots of our meetings last year are summarised in our_ [_blog_](/archives)_._
 
 ## Why apply?
 
