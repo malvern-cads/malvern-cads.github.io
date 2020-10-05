@@ -15,19 +15,48 @@ CADS can help you improve both key life skills (e.g. public speaking, CV writing
 
 If you'd like to get more information, try and find a Year 13 student at lunchtime to talk to.
 
+<div class="container">
+
 <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+  <div class="row">
+
+    <div class="form-group col-lg">
+
+      <label for="exampleInputEmail1">First Name</label>
+
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+    </div>
+
+    <div class="form-group col-lg">
+
+      <label for="exampleInputEmail1">Last Name</label>
+
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+    </div>
+
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
+
+    <div class="form-group col-lg">
+
+      <label for="exampleInputPassword1">Password</label>
+
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+
+    </div>
+
   <div class="form-check">
+
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
+
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
   </div>
+
   <button type="submit" class="btn btn-primary">Submit</button>
+
 </form>
+
+</div>
