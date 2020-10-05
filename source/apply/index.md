@@ -3,7 +3,7 @@ title: Apply to CADS
 date: 2019-09-10 11:15:57
 
 ---
-<div class="alert alert-danger" role="success">Applications for 2020 are open!</div>
+<div class="alert alert-success" role="success">Applications for 2020 are open!</div>
 
 ## What is CADS?
 
