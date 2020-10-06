@@ -14,3 +14,5 @@ CADS is a club held at the Chase every Monday from 3:30 pm to 4:30 pm. Meetings 
 CADS can help you improve both key life skills (e.g. public speaking, CV writing, presentation skills) and also cyber and computing based skills (e.g. advanced Google searching, OSINT). It is also a great to write on a CV to show that you have been actively learning new skills outside of normal school.
 
 If you'd like to get more information, try and find a Year 13 student at lunchtime to talk to.
+
+<iframe src="[https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QMUTdc0rtenNDf0nlBDQjyWRQ/viewform?embedded=true](https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QMUTdc0rtenNDf0nlBDQjyWRQ/viewform?embedded=true "https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QMUTdc0rtenNDf0nlBDQjyWRQ/viewform?embedded=true")" width="640" height="1348" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
