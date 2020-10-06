@@ -20,5 +20,3 @@ fields:
     display_utc: false
     export_format: YYYY-MM-DD HH:mm:ss
   default: now
-pages:
-- source/applying.md
