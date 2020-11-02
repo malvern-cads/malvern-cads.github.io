@@ -39,12 +39,5 @@ title: Apply
     <label for="skills">Related Skills</label>
     <textarea class="form-control" id="skills" rows="5"></textarea>  
   </div>
-  
-  
-  
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
