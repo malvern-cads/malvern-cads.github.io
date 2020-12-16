@@ -22,4 +22,6 @@ fields:
   default: now
 pages:
 - source/application/test.md
-- source/apply/apply.md
+- source/apply/index.md
+- source/info.md
+- source/info/info.md

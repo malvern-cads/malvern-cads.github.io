@@ -1,16 +1,45 @@
 ---
-date: 2020-10-19 15:40:43
+date: 2020-11-02 20:07:44
 title: Apply
 
 ---
-<div class="alert alert-success" role="success">Applications for 2020 are open!</div>
+CADS Application Form
 
-\## What is CADS?
-
-CADS is a club held at the Chase every Monday from 3:30 pm to 4:30 pm. Meetings range from learning about different cyber tools to building on key skills such as public speaking, CV writing, etc... _Lots of our meetings last year are summarised in our_ \[_blog_\](/archives)_._
-
-\## Why apply?
-
-CADS can help you improve both key life skills (e.g. public speaking, CV writing, presentation skills) and also cyber and computing based skills (e.g. advanced Google searching, OSINT). It is also a great to write on a CV to show that you have been actively learning new skills outside of normal school.
-
-If you'd like to sign up for CADS, please click \[[https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QM_c0rtenNDf0nlBDQjyWRQ/viewform?usp=sf_link_](https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QM_c0rtenNDf0nlBDQjyWRQ/viewform?usp=sf_link_ "https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QM_c0rtenNDf0nlBDQjyWRQ/viewform?usp=sf_link_")\]([https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QMUTdc0rtenNDf0nlBDQjyWRQ/viewform?usp=sf_link](https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QMUTdc0rtenNDf0nlBDQjyWRQ/viewform?usp=sf_link "https://docs.google.com/forms/d/e/1FAIpQLSf0xfdM-BXr2flmgeYsmu_q_QMUTdc0rtenNDf0nlBDQjyWRQ/viewform?usp=sf_link") "here")
+<form name="contact" method="POST" data-netlify="true">
+  <div class="form-group">
+    <label for="fullName">Full Name</label>
+    <input name="name" type="text" class="form-control" id="fullName" placeholder="Enter name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input name="email" type="email" class="form-control" id="email" placeholder="john@email.com">
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input name="phone number" type="text" class="form-control" id="phone" aria-describedby="phoneMsg" placeholder="Phone Number">
+    <small id="phoneMsg" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="about">About yourself</label>
+    <textarea name="about" class="form-control" id="about" rows="5" aria-describedby="aboutMsg"></textarea>
+    <small id="aboutMsg" class="form-text text-muted">You could include: Current studies, employment or hobbies</small>    
+  </div>
+  <div class="form-group">
+    <label for="experience">Experience</label>
+    <textarea name="experience" class="form-control" id="experience" rows="5" aria-describedby="experienceMsg"></textarea>
+        <small id="experienceMsg" class="form-text text-muted">Doesn't have to be cyber related</small>   
+  </div>
+  <div class="form-group">
+    <label for="qualifications">Qualifications</label>
+    <textarea name="qualifications" class="form-control" id="qualifications" rows="5"></textarea>  
+  </div>
+  <div class="form-group">
+    <label for="achievements">Key Achievements</label>
+    <textarea name="achievements" class="form-control" id="achievements" rows="5"></textarea>  
+  </div>
+  <div class="form-group">
+    <label for="skills">Related Skills</label>
+    <textarea name="skills" class="form-control" id="skills" rows="5"></textarea>  
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
