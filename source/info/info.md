@@ -19,6 +19,6 @@ If you want to get a better understanding of what our talks are about, check out
 
 We are currently taking applications for Year 12s to join CADS, and you can click the link below to send in your details
 
-To apply for CADS 2021, please head to the [apply page](https://cadscheme.co.uk/info)
+To apply for CADS 2021, please head to the [apply page](https://cadscheme.co.uk/apply)
 
 **We Hope To See You There!**
