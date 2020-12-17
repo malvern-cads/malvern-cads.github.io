@@ -21,5 +21,6 @@ fields:
     export_format: YYYY-MM-DD HH:mm:ss
   default: now
 pages:
+- source/about-cads.md
 - source/application/test.md
 - source/apply/index.md
