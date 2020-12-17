@@ -1,6 +1,6 @@
 ---
 date: 2020-12-17 02:33:48
-title: Info
+title: index
 
 ---
 ## What is CADS?
